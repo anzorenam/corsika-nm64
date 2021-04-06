@@ -1,0 +1,29 @@
+RUNNR   2                                                 run number
+EVTNR   1                                                 number of first shower event
+NSHOW   25000000                                          number of showers to generate
+PRMPAR  13                                                particle type of prim. particle
+ESLOPE  -4.5                                              slope of primary energy spectrum
+ERANGE  1.3E0  1.1E1                                      energy range of primary particle
+THETAP  40.5  40.5                                        range of zenith angle (degree)
+PHIP    0.  0.                                            range of azimuth angle (degree)
+SEED    100004   0   0                                    seed for 1. random number sequence
+SEED    100005   0   0                                    seed for 2. random number sequence
+OBSLEV  227.4E3                                           observation level (in cm)
+FIXCHI  0.                                                starting altitude (g/cm**2)
+MAGNET  28.147  30.452                                    magnetic field centr. Europe
+HADFLG  0  0  0  0  0  2                                  flags hadr.interact.&fragmentation
+ECUTS   0.05  0.03  0.03  0.03                            energy cuts for particles
+MUADDI  T                                                 additional info for muons
+MUMULT  T                                                 muon multiple scattering angle
+QGSJET  T 0                                               QSGJET for high energy and debug level
+QGSSIG  T                                                 QSGJET cross-section enabled   
+ATMOD   1                                                 atmospheric model
+ELMFLG  T   T                                             em. interaction flags (NKG,EGS)
+STEPFC  1.0                                               mult. scattering step length fact.
+RADNKG  200.E5                                            outer radius for NKG lat.dens.distr.
+LONGI   F  1.  F  F                                       longit.distr. & step size & fit & out
+MAXPRT  10                                                max. number of printed events
+DIRECT  /run/media/shirokuma/neutron-data/neutrons-cdmx/  output directory
+USER    shirokuma                                         user 
+DEBUG   F  6  F  1000000                                  debug flag and log.unit for out
+EXIT                                                      terminates input
